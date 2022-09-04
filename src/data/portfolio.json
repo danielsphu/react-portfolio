@@ -1,0 +1,10 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/project1/YelpcampCover.png",
+            "title": "Yelpcamp - A Yelp clone for campsites",
+            "description": "Javascript, NodeJS, ExpressJS, MongoDB",
+            "url": "https://desolate-reef-919.herokuapp.com/"
+        }
+    ]
+}
