@@ -15,7 +15,7 @@ const Portfolio = () => {
                     portfolio.map((port, idx) => {
                         return(
                             <div className="image-box" key={idx}>
-                                <img src={port.cover}
+                                <img src={port.image}
                                 className="portfolio-image"
                                 alt="portfolio"/>
                                 <div className='content'>
