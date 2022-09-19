@@ -1,5 +1,6 @@
 import './index.scss'
 import { useState} from 'react'
+import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {
@@ -25,14 +26,16 @@ const About = () => {
                     idx={15}/>
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id lacus pharetra nunc porta euismod. Sed ultricies eleifend arcu non mattis. Ut fermentum accumsan tempus. Quisque sed orci id risus vehicula vestibulum nec eget odio. Nulla eros felis, sollicitudin sit amet porttitor sed, tempor id metus. Mauris fermentum orci non mattis blandit. Curabitur dignissim sodales nibh, sit amet sollicitudin quam laoreet ut. Cras ac eros vitae orci venenatis laoreet. Vestibulum sed odio sed eros commodo dignissim. Duis ultricies, nibh sit amet varius eleifend, libero sapien commodo lorem, id gravida metus felis ut ex.
+                    Hi! I'm a software engineering student currently studying at McMaster University with a passion for creating and inventing with code! I have experience in full-stack development from my internship with The Government of Ontario, as well as personal projects and hackathon projects.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id lacus pharetra nunc porta euismod. Sed ultricies eleifend arcu non mattis. Ut fermentum accumsan tempus. Quisque sed orci id risus vehicula vestibulum nec eget odio. Nulla eros felis, sollicitudin sit amet porttitor sed, tempor id metus. Mauris fermentum orci non mattis blandit. Curabitur dignissim sodales nibh, sit amet sollicitudin quam laoreet ut. Cras ac eros vitae orci venenatis laoreet. Vestibulum sed odio sed eros commodo dignissim. Duis ultricies, nibh sit amet varius eleifend, libero sapien commodo lorem, id gravida metus felis ut ex.
+                    Aside from looking for the next thing computer science topic to learn (currently interesting in ML/AI right now), I enjoy all things sci-fi as well as swimming in my free time. 
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id lacus pharetra nunc porta euismod. Sed ultricies eleifend arcu non mattis. Ut fermentum accumsan tempus. Quisque sed orci id risus vehicula vestibulum nec eget odio. Nulla eros felis, sollicitudin sit amet porttitor sed, tempor id metus. Mauris fermentum orci non mattis blandit. Curabitur dignissim sodales nibh, sit amet sollicitudin quam laoreet ut. Cras ac eros vitae orci venenatis laoreet. Vestibulum sed odio sed eros commodo dignissim. Duis ultricies, nibh sit amet varius eleifend, libero sapien commodo lorem, id gravida metus felis ut ex.
+                    I am currently looking for summer 2023 opportunities! Feel free to reach out <a href="/contact">here</a>
                 </p>
+                <Link to="/contact" className="flat-button">RESUME</Link>
+               
             </div>
 
             <div className="stage-cube-cont">

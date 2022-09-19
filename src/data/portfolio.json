@@ -5,6 +5,12 @@
             "title": "Yelpcamp - A Yelp clone for campsites",
             "description": "Javascript, NodeJS, ExpressJS, MongoDB",
             "url": "https://desolate-reef-919.herokuapp.com/"
+        },
+        {
+            "image": "/portfolio/project2/Hack-The-North-Events.png",
+            "title": "E-Wardrobe - A Wardrobe Organizer",
+            "description": "MongoDB, ExpressJS, AngularJS, NodeJS",
+            "url": "https://devpost.com/software/e-wardrobe"
         }
     ]
 }
