@@ -37,7 +37,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in summer 2023 opportunities! However, if you have any other requests orquestions, don't hesitate to contact me using below form either.
+            I am interested in summer 2023 opportunities! However, if you have any other requests or questions, don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

@@ -1,8 +1,8 @@
 {
     "portfolio": [
         {
-            "image": "/portfolio/project1/YelpcampCover.png",
-            "title": "Yelpcamp - A Yelp clone for campsites",
+            "image": "/portfolio/project2/YelpcampCover.png",
+            "title": "Campsite Reviewer - A Yelp clone for campsites",
             "description": "Javascript, NodeJS, ExpressJS, MongoDB",
             "url": "https://desolate-reef-919.herokuapp.com/"
         },
@@ -11,6 +11,12 @@
             "title": "E-Wardrobe - A Wardrobe Organizer",
             "description": "MongoDB, ExpressJS, AngularJS, NodeJS",
             "url": "https://devpost.com/software/e-wardrobe"
+        },
+        {
+            "image": "/portfolio/project3/Scanner.png",
+            "title": "DocuScan - A Mobile Document Scanner",
+            "description": "Python",
+            "url": "https://github.com/danielsphu/DocuScan"
         }
     ]
 }
